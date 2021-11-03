@@ -4,7 +4,7 @@
 
 DEST="./public_html"
 html=".html"
-
+chmod 755 build.sh
 mkdir -p "$DEST/"
 
 # Execute all php files and save them as html
